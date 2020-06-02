@@ -6,7 +6,7 @@ import Button1 from "./Button1";
 const testClick = jest.fn();
 
 // component instance to test
-const wrapper = shallow( <Button label="Test Label" click={ testClick } /> );
+const wrapper = shallow( <Button1 label="Test Label" click={ testClick } /> );
 
 describe( "Button1", () => {
   it( "should render without errors", () => {
