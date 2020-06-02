@@ -40,4 +40,4 @@ Button1.defaultProps = {
   data: undefined,
 };
 
-export default Button;
+export default Button1;
