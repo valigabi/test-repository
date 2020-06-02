@@ -2,13 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
 
-const Button = ( { label, click, type, disabled, data, addClass } ) => (
+const Button1 = ( { label, click, type, disabled, data, addClass } ) => (
   <button className={ `btn ${ addClass }` } type={ type } disabled={ disabled } onClick={ () => click( data ) }>
     <span>{ label }</span>
   </button>
 );
 
-Button.propTypes = {
+Button1.propTypes = {
   label: PropTypes.string,
   type: PropTypes.string,
   disabled: PropTypes.bool,
@@ -31,7 +31,7 @@ Button.propTypes = {
   } ),
 };
 
-Button.defaultProps = {
+Button1.defaultProps = {
   label: undefined,
   type: "button",
   disabled: false,
